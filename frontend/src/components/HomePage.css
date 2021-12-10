@@ -1,0 +1,20 @@
+h1.page-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+button.add-exercise-btn, input[type=submit] {
+    background-color: #009879;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+}

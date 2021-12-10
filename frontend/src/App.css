@@ -1,0 +1,44 @@
+.clickable, button {
+    cursor: pointer;
+}
+
+body {
+    text-align: center;
+}
+
+.exercise-form {
+    margin: auto;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    border-top: 2px solid #009879;
+    border-bottom: 2px solid #009879;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+input[type=text], select {
+    border: 2px solid #009879;
+    padding: 10px;
+    margin: 2px 2px;
+}
+
+h1.page-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+button.add-exercise-btn, input[type=submit] {
+    background-color: #009879;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+}
